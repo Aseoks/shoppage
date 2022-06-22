@@ -1,0 +1,463 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: arial, Helvetica, sans-serif;
+	font-weight: bold;
+
+
+}
+
+.cover{	
+	width: 100%;
+	height: 767px;
+	background-image: url("Rectangle 1125.png");
+	background-attachment: fixed;
+	background-size: auto;
+	display: block;
+	
+
+}
+
+.navbar{
+	width: 100%;
+	height: 89px;
+	padding-right: 277px;
+	display: flex;
+	flex-direction: row;
+	position: fixed;	
+	justify-content: space-between;
+	align-items: center;
+	font-size: 16px;
+	background-color: none;	
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+
+}
+
+/*@media screen and (max-width: 1600px) {
+  .navbar a:not(:first-child) {display: none;}
+  .navbar a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+
+@media screen and (max-width: 1600px) {
+  .navbar.responsive {position: relative;}
+  .navbar.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}*/
+
+.pages{
+	margin: 35px 100px 35px 299px;
+
+}
+
+.navbar .icon{
+	display: none;
+}
+
+
+
+ul{	
+	list-style-type: none;
+
+}
+
+ul li{
+	display: inline-flex;
+	float: left;
+}
+
+ul li a{
+	display: block;
+	text-align: center;	
+	text-decoration: none;
+	color: #208EAB;
+}
+
+#buttons{
+	display: inline-flex;
+	flex-direction: row;
+}
+
+button{
+	margin-right: 41px;
+	border: none;
+	cursor: pointer;
+	height: 100%;
+}
+
+.contact{
+	padding: 11px 12px 11px 11px;
+	background-color: #208EAB;
+	color: white;
+
+
+	
+}
+
+.button{
+	display: inline-flex;
+	height: 34px;
+	width: 34px;
+	padding-top: 0px;
+	background-color: rgba(0, 0, 0, 0);
+	color: #208EAB;
+	font-weight: 500;
+	font-size: 30px;	
+}
+
+.button__icon{
+	display: inline-flex;	
+	align-items: center;	
+	height: 100%;
+}
+
+.pages li a{	
+	margin-right: 70px;
+}
+
+.middle{
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	align-content: center;
+	
+}
+
+.title{
+	margin-left: 288px;
+	margin-top: 296px;
+	font-size: 40px;
+	color: #208EAB;
+	height: 51px;
+	width: 615px;
+	flex-grow: 1;	
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: 500;	
+}
+
+
+.description{
+	margin-left: 288px;
+	margin-top: 10px;
+	margin-bottom: -25px;			
+	height: 108px;
+	width: 562px;
+	font-size: 18px;
+	color: black;
+	flex-grow: 1;	
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: 200;
+
+}
+.buttonmid{	
+	display: inline-flex;
+	align-items: baseline;
+	justify-content: flex-start;
+}
+.discover{
+	height: 46px;
+	width: 194px;
+	margin-left: 288px;
+	border-radius: 15px;
+	background-color: #FFD5C8;
+	color: #208EAB;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+
+.inspire{
+	height: 21px;
+	width: 174px;
+	margin-left: 10px;
+	margin-top: 15px;
+	color: #208EAB;
+	text-decoration: underline;
+	align-self: start;
+	cursor: pointer;
+
+}
+main{
+	height: 2209px;
+	width: 100%;
+	background-image: url("Repeat Grid 9.png");
+	background-attachment: fixed;
+	background-size: auto;
+
+
+}
+
+.new{
+	width: 248px;
+	height: 51px;
+	margin-left: 277px;
+	margin-bottom: 40px;
+	margin-top: 43px;
+	font-size: 40px;
+	color: #208EAB;
+	font-family:  'Open Sans', sans-serif;
+}
+
+/*flexbox*/
+
+
+
+.three{
+	
+	width: 100%;	
+	display: flex;
+	padding-left: 277px;
+	flex-direction: row;
+	justify-content: flex-start;
+	column-gap: 53px;
+	
+}
+
+
+/*.three:hover .threee{
+	width: 100%;	
+	display: flex;
+	padding-left: 277px;
+	flex-direction: row;
+	justify-content: flex-start;
+	column-gap: 53px;
+	background-color: rgba(0, 0, 0, 0.5);
+}*/
+
+.name{
+	width: 100%;	
+	height: 41px;
+	display: flex;
+	padding-left: 277px;
+	margin-top: 16px;
+	flex-direction: row;
+	justify-content: flex-start;
+	column-gap: 53px;
+	font-size: 32px;
+	color: #F7A960;
+	font-family:  'Open Sans', sans-serif;
+	font-weight: lighter;
+}
+
+.wall{
+	margin-left: 230px;
+}
+
+.flower
+{
+	margin-left: 131px;
+}
+
+.price{
+	width: 100%;
+	height: 36px;
+	margin-bottom: 90px;
+	padding-left: 277px;
+	justify-content: flex-start;
+	display: flex;
+	column-gap: 408px;
+	font-size: 28px;
+	color: #208EAB;
+	font-family:  'Open Sans', sans-serif;
+	font-weight: lighter;
+}
+
+.flowerprice{
+	padding-left: 5px;
+}
+.two{
+	width: 1383px;
+	margin-left: auto;
+	margin-right: auto;	
+	display: flex;	
+	flex-direction: row;
+	justify-content: flex-start;
+	column-gap: 7px;
+}
+
+.five{
+	width: 1383px;
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;	
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+}
+
+.fivee{
+	margin: 0 36px;
+}
+
+.clearence{
+	width: 1383px;	
+	margin-top: 90px;
+	margin-left: 275px;
+	color: #208EAB;
+	font-size: 39px;
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+}
+
+
+.footer{
+	width: 100%;
+	height: 194px;
+	padding-top: 30px;
+	padding-bottom: 19px;
+	padding-left: 279px;
+	padding-right: 320px;
+	background-color: #D4C9B5;
+	color: #208EAB;
+	font-size: 14px;
+	display: grid;
+	justify-items: start;
+	align-items: center;
+	justify-content: space-between;
+	align-content: space-between;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+
+}
+
+.responsive{
+	max-width: 100%;
+	height: auto;
+}
+
+
+
+.Contact{
+	grid-row-start: 1;
+	grid-row-end: 2;	
+	grid-column-start: 1;
+	grid-column-end: 1;
+		
+}
+
+.Ordering{
+	grid-row-start: 2;	
+	grid-row-end: 3;	
+	grid-column-start: 1;
+	grid-column-end: 2;
+	
+}
+
+.Shipping{
+	grid-row-start: 3;	
+	grid-row-end: 4;	
+	grid-column-start: 1;
+	grid-column-end: 2;
+			
+}
+
+.Returns{
+	grid-row-start: 4;	
+	grid-row-end: 5;	
+	grid-column-start: 1;
+	grid-column-end: 2;
+			
+}
+
+.FAQ{
+	grid-row-start: 5;	
+	grid-row-end: 6;	
+	grid-column-start: 1;
+	grid-column-end: 2;
+			
+}
+
+.ADDRESS{
+	padding-left: 200px;
+	grid-row-start: 1;	
+	grid-row-end: 2;	
+	grid-column-start: 2;
+	grid-column-end: 3;
+			
+}
+
+.ADDRESS1{
+	padding-left: 200px;
+	grid-row-start: 2;	
+	grid-row-end: 3;	
+	grid-column-start: 2;
+	grid-column-end: 3;
+			
+}
+
+.ADDRESS2{
+	padding-left: 200px;
+	grid-row-start: 3;	
+	grid-row-end: 4;	
+	grid-column-start: 2;
+	grid-column-end: 3;
+		
+}
+
+.instagram{
+
+	justify-self: right;
+	font-size: 16px;
+}
+
+.twitter{
+	padding-left: 20px;
+	grid-column: 4/4;
+	grid-row: 1/1;
+	font-size: 16px;
+}
+
+.facebook{
+	grid-column: 4/4;
+	grid-row: 1/1;
+	padding-left: 50px;
+	font-size: 16px;
+}
+
+
+@media (max-width: 800px) {
+	.three {
+	  flex-direction: column;
+	}
+
+	.two{
+		flex-direction: column;
+	}
+
+	.five{
+		flex-direction: column;
+	}
+
+	.cover{
+		width: 100%;
+		height: auto;
+	}
+
+	main{
+		width: 100%;
+		height: auto;
+	}
+
+	responsive{
+
+	}
+  }
